@@ -1,0 +1,71 @@
+{
+  "slide_size_pt": [
+    960,
+    540
+  ],
+  "aspect_ratio": "16:9",
+  "font": "맑은 고딕",
+  "code_font": "Consolas",
+  "logo_font": "Arial",
+  "colors": {
+    "title": "#1C50B3",
+    "background": "#FFFFFF",
+    "text": "#080808",
+    "logo": "#BE1551",
+    "table_band": "#EEF3FB",
+    "code": "#24271F"
+  },
+  "line_spacing": 1.3,
+  "minimum_content_margin_cm": 1.2,
+  "content_area_pt": [
+    34.02,
+    114,
+    891.96,
+    344
+  ],
+  "title_position_pt": [
+    34.02,
+    34.02
+  ],
+  "page_number_position_pt": [
+    34.02,
+    487.98
+  ],
+  "body_alignment": "left",
+  "layouts": [
+    {
+      "name": "01_cover",
+      "title": "표지"
+    },
+    {
+      "name": "02_contents",
+      "title": "Contents"
+    },
+    {
+      "name": "03_section",
+      "title": "섹션 구분"
+    },
+    {
+      "name": "04_body",
+      "title": "[본문 제목]"
+    },
+    {
+      "name": "05_image_text",
+      "title": "[이미지와 설명]"
+    },
+    {
+      "name": "06_code_text",
+      "title": "[코드와 설명]"
+    },
+    {
+      "name": "07_table_text",
+      "title": "[표와 설명]"
+    },
+    {
+      "name": "08_two_images",
+      "title": "[이미지 두 개]"
+    }
+  ],
+  "design_reference_sha256": "ffef3c1521d078387f07ceac3ab02da7bd0f467cca49d922a93f42948cec058b",
+  "provenance": "사용자가 제공한 디자인을 기반으로 한 편집 가능한 기존 PowerPoint에서 일반 모양 추출; 내용 제거 및 요청한 여백·줄 간격 적용"
+}
