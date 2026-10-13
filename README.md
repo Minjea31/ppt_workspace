@@ -2,6 +2,7 @@
 
 개인 템플릿을 재사용해 여러 주제의 PowerPoint를 만드는 작업 공간입니다.
 특정 과제, 실험 방법, 수치 표시 방식이나 슬라이드 순서에 종속되지 않습니다.
+현재 공통 템플릿은 사용자 지정 week4 PDF의 디자인을 재구성했으며, Pretendard Bold와 가장자리 배치를 사용합니다. 고정 1.2cm 여백은 적용하지 않습니다.
 
 제작 규칙은 [AGENTS.md](AGENTS.md) 한 곳에서 관리합니다. 이 README는 폴더와 도구 사용법을 설명합니다.
 
@@ -9,7 +10,7 @@
 
 ```text
 templet/                 재사용할 디자인과 레이아웃
-  base.pptx              8가지 모양을 모은 편집 가능한 템플릿
+  base.pptx              9가지 모양을 모은 편집 가능한 템플릿
   base.pdf               템플릿 미리보기
   layouts/               모양별 PPTX
   previews/              모양별 PNG

@@ -4,68 +4,85 @@
     540
   ],
   "aspect_ratio": "16:9",
-  "font": "맑은 고딕",
-  "code_font": "Consolas",
-  "logo_font": "Arial",
+  "font": "Pretendard",
+  "font_style": "Bold",
+  "font_face": "Pretendard Bold",
+  "code_font": "Pretendard",
+  "logo_font": "Pretendard",
   "colors": {
     "title": "#1C50B3",
     "background": "#FFFFFF",
     "text": "#080808",
     "logo": "#BE1551",
     "table_band": "#EEF3FB",
-    "code": "#24271F"
+    "code": "#272822"
   },
   "line_spacing": 1.3,
-  "minimum_content_margin_cm": 1.2,
+  "minimum_content_margin_cm": 0,
   "content_area_pt": [
-    34.02,
-    114,
-    891.96,
-    344
+    27,
+    91.5,
+    904.5,
+    415.5
   ],
   "title_position_pt": [
-    34.02,
-    34.02
+    20.25,
+    3
   ],
+  "explanation_box": {
+    "interior_side_bottom_inset_pt": 12,
+    "untitled_top_inset_pt": 12,
+    "title_band_pt": 40.5,
+    "text_padding_pt": 12
+  },
+  "title_band_height_pt": 61.5,
   "page_number_position_pt": [
-    34.02,
-    487.98
+    19.5,
+    516
   ],
-  "body_alignment": "left",
   "layouts": [
     {
       "name": "01_cover",
-      "title": "표지"
+      "title": "cover"
     },
     {
       "name": "02_contents",
-      "title": "Contents"
+      "title": "contents"
     },
     {
       "name": "03_section",
-      "title": "섹션 구분"
+      "title": "section"
     },
     {
       "name": "04_body",
-      "title": "[본문 제목]"
+      "title": "body"
     },
     {
       "name": "05_image_text",
-      "title": "[이미지와 설명]"
+      "title": "image_text"
     },
     {
       "name": "06_code_text",
-      "title": "[코드와 설명]"
+      "title": "code_text"
     },
     {
       "name": "07_table_text",
-      "title": "[표와 설명]"
+      "title": "table_text"
     },
     {
       "name": "08_two_images",
-      "title": "[이미지 두 개]"
+      "title": "two_images"
+    },
+    {
+      "name": "09_equation",
+      "title": "equation"
+    },
+    {
+      "name": "10_four_images",
+      "title": "four_images"
     }
   ],
-  "design_reference_sha256": "ffef3c1521d078387f07ceac3ab02da7bd0f467cca49d922a93f42948cec058b",
-  "provenance": "사용자가 제공한 디자인을 기반으로 한 편집 가능한 기존 PowerPoint에서 일반 모양 추출; 내용 제거 및 요청한 여백·줄 간격 적용"
+  "provenance": "사용자 지정 week4 PDF에서 디자인만 재구성. 모든 예시 내용은 일반 자리표시자로 대체.",
+  "design_reference": "/home/a/Reinforcement_Learning_class/ppt/강화학습_week4_2021042040.pdf",
+  "design_reference_sha256": "8349d826b945a2def27a9bf99cf7c0d4c9eb2220be29771692be5368488280da"
 }

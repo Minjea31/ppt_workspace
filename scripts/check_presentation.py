@@ -17,7 +17,7 @@ def main():
     parser.add_argument('--audit',type=Path)
     parser.add_argument('--line-spacing',type=float,default=1.3)
     parser.add_argument('--allow-placeholders',action='store_true')
-    parser.add_argument('--minimum-margin-cm',type=float,default=1.2)
+    parser.add_argument('--minimum-margin-cm',type=float,default=0)
     args=parser.parse_args()
     errors=[]
     warnings=[]
